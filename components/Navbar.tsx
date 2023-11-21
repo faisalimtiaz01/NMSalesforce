@@ -6,14 +6,16 @@ import Link from 'next/link';
 const Navbar = () => {
   
   return (
-    <section className='w-full shadonav'>
-      <main className='max-w-[80rem] mx-auto px-6 py-6'>
-        <div className='flex flex-col md:flex-row items-center justify-between'>
+    <section className='w-full shadonav    '>
+      <main className='max-w-[80rem] mx-auto  px-6 py-6'>
+        <div className='flex flex-col md:flex-row  items-center justify-between'>
 
           <div className='mb-4 md:mb-0'>
-            <h1 className='text-[1rem] md:text-[1.25rem] lg:text-[1.25rem] font-[600] leading-normal text-[#000]'>
+          <Link href='#contactForm'>
+          <h1 className='text-[1rem] md:text-[1.25rem] lg:text-[1.25rem] font-[600] leading-normal text-[#000] hover:text-[#1095c1]'>
               NM Salesforce Bootcamp
             </h1>
+          </Link>
           </div>
 
           <div className='flex flex-col md:flex-row items-center gap-2'>
