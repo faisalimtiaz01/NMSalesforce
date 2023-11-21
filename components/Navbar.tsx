@@ -6,7 +6,7 @@ import Link from 'next/link';
 const Navbar = () => {
   
   return (
-    <section className='w-full shadonav    '>
+    <section className='w-full shadonav ' id='top'>
       <main className='max-w-[80rem] mx-auto  px-6 py-6'>
         <div className='flex flex-col md:flex-row  items-center justify-between'>
 

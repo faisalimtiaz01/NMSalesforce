@@ -8,6 +8,7 @@ const Footer = () => {
   return (
     <section className="w-full bg-[#121117]">
       <main className="max-w-[80rem] mx-auto px-6 py-10">
+       
         <div className="flex flex-col gap-[1.5rem]">
           <h1 className="text-[1.92119rem] text-[#00D1FF] leading-[130%] tracking-[-0.03844rem] font-[700]">
             NM Salesforce Bootcamp
@@ -23,7 +24,7 @@ const Footer = () => {
               © 2023 Copyright Company.com
             </p>
 
-            <div className="flex flex-row gap-[1rem] items-center justify-center mt-4 md:mt-0  ">
+            <div className="flex flex-row gap-[1rem] items-center justify-center mt-4 md:mt-0 relative  ">
               <div className="text-[#00D1FF] bg-[#333] rounded-full p-2 cursor-pointer">
                <Link href='https://www.facebook.com/'><Facebook  className="w-[1.5rem]" /></Link> 
               </div>
@@ -36,6 +37,7 @@ const Footer = () => {
                <Link href='https://twitter.com/'> <Twitter className="w-[1.5rem] " />
                </Link>
               </div>
+              <Link href='#top'><h1 className="text-white  fixed bg-[#565050] text-[1rem] rounded-full text-center flex items-center justify-center font-[700] scale-75 w-[5rem] h-[5rem] top-[40rem] left-[90rem] hover:bg-[#00D1FF]"> Up</h1></Link>
             </div>
           </div>
         </div>
