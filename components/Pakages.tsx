@@ -61,13 +61,13 @@ const Pakages = () => {
     <div className='justify-center items-center content-center flex flex-wrap gap-10 mt-[3.5rem]'>
       {
         pakages.map((items ,index)=>(
-          <div key={index} className='flex items-center gap-[1.25rem]  rounded-[16px]  bg-[#FFF] px-[1.375rem] py-[1.125rem] w-[333px] h-[5.875rem] '>
+          <div key={index} className='flex items-center gap-[1.25rem]  rounded-[16px]  bg-[#FFF] px-[1.375rem] py-[1.125rem] w-[333px] h-[5.875rem] hover:text-[#fff] hover:bg-[#408595] hover:scale-110'>
         <Image src={items.imgUrl}  alt='as' width={34} height={34}/>
         <h2 className='text-[18px] font-[500] leading-[160%]'>{items.title}</h2>
       </div>
         ))
       }
-      {/*  */}
+      
      
        
     </div>

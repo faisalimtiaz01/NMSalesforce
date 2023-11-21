@@ -12,7 +12,7 @@ const Navbar = () => {
 
           <div className='mb-4 md:mb-0'>
           <Link href='#contactForm'>
-          <h1 className='text-[1rem] md:text-[1.25rem] lg:text-[1.25rem] font-[600] leading-normal text-[#000] hover:text-[#1095c1]'>
+          <h1 className='text-[1rem] md:text-[1.25rem] lg:text-[1.25rem] font-[600] leading-normal text-[#000] hover:text-[#00D1FF]'>
               NM Salesforce Bootcamp
             </h1>
           </Link>
